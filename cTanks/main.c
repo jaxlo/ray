@@ -6,6 +6,7 @@ typedef struct Player {
     Vector2 position; // Raylib's Vector2 for position (x, y)
     int facingAngle;  // Rotation in degrees
     bool alive;
+    Color color;
 } Player;
 
 // Function to rotate a point around an origin
